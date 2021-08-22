@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container{
+  background-color: rgb(3, 3, 77);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+h1{
+  font-family:  'Kaisei HarunoUmi', serif;
+  
+}
+
+.title{
+  background-size: auto 100%;
+  background-image: url('https://media.istockphoto.com/photos/birthday-party-banner-or-background-with-colorful-balloon-gift-cap-picture-id827986480?k=6&m=827986480&s=612x612&w=0&h=9jxlruoyVfA7PtMo5ui79bXvoP3FjmyEC7t74_DNkV0=');
+  height: auto;
+  max-width: min(900px,80vw);
+  padding: 2rem 3rem;
+  padding-bottom: 1rem;
+  margin: 2rem;
+  color: black;
+  font-family: 'Rampart One', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.title h1{
+  max-width: min(900px,80vw);
+  display: inline;
+  font-size: 3rem;
+  /* margin: auto; */
+  text-align: center;
+  font-family: 'Rampart One', cursive;
+  background-color: rgba(245, 204, 204, 0.445);
+}
+
+.title a {
+  border: 2px solid #1e135a;
+  border-radius: 0.5rem;
+  margin: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  display: block;
+  color: #38f8cf;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 1.5rem;
+  background-color:rgb(56, 41, 141);
+  text-align: center
+}
+.title a:hover {
+  background-color: #e8cfee;
+  color: black;
+  border: 2px solid black;
+  transform: scale(1.2,1.2);
+}
+
+#secondpage{
+  background-color: rgb(3, 3, 77);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.elements{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border:1px solid white;
+  border-radius: 25px;
+  padding-top: 2rem;
+  
+}
+
+#alertBox{
+  width: fit-content;
+  padding: 0 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b71540;
+  color: black;
+  border: 1px transparent;
+  border-radius: 0.5rem;
+}
+
+.privacy{
+  font-size: 1rem;
+  padding: 1rem 0;
+  color: white;
+}
+
+.description p{
+  max-width:20rem;
+  text-align:center;
+  border:2px solid white;
+  border-radius:25px;
+  padding:10px;
+  font-size:20px;
+  font-family:sans-serif;
+  line-height:1.5rem;
+}
+
+.description button{
+  border:2px solid ;
+  margin:3px auto;
+}
+
+h2{
+  font-size:2rem;
+  margin: 1rem;
+  margin-top:2.5rem;
+  text-align: center;
+}
+input{
+  font-size: 1.2rem;
+  height: 3rem;
+  padding:0.5rem 0.3rem;
+  border:2px solid black;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+
+button{
+  display:block;
+  font-size: 1.3rem;
+  padding: 3px 8px;
+  border-radius:25px;
+  border-width: 4px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  text-align: center;
+  margin: 15px auto;
+}
+button:hover{
+  transform:scale(1.2,1.2);
+  border-color:white;
+  color: white;
+  background-color:transparent;
+}
+
+.display{
+  max-width: 20rem;
+  padding: 1rem;
+  margin: 2rem;
+  border: 2px solid Yellow;
+  text-align: center;
+  font-size:2rem;
+}
+
+.display div{
+ color:yellow;
+}
