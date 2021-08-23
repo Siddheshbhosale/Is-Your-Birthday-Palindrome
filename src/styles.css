@@ -173,3 +173,33 @@ button:hover{
 .display div{
  color:yellow;
 }
+
+#footer{
+  width: 100%;
+  min-height: 6vh;
+  background-color: rgba(37, 71, 163, 0.356);
+  bottom: 0;
+  position: fixed;
+}
+.footer-list{
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0px;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+ 
+}
+
+.list-item{
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+
+}
+
+ul li i{
+  color: black;
+}
